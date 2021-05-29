@@ -1,0 +1,10 @@
+#+TITLE: Problem Statement
+
+
+* The Problem
+
+I'd like to implement CI/CD practices into my work and hobby related coding efforts. However, I'm often in environments where I lack network connectivity and access to libraries outside of what is provided by git and the standard libraries shipped with Spyder (and usually pretty old libraries). As such, I need a basic continous integration system which allows users to push changes to bare repo, whether local or on network storage), run unit test which are specified in a user adjustable manner, and publish the results of the test. The types of test are geared towards data analysis workloads. As such, the primary need is to evaluate a given input and check the results in an automated fashion. Secondary, tests will be required including performance tests (possible in records per second, etc.)
+
+* Diary
+
+I'm attempting to approach this with a scientific mindset of designing small experiments. As such, my first experiment/investigation will be installing an old verion of the standard spyder (from ~2016) and evaluating the tools at my disposal.
