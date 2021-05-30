@@ -1,4 +1,5 @@
 # import tempfile
+from config import config
 
 #def get_current_hash():
 #    # Get current hash
@@ -12,5 +13,5 @@
 #    else:
 #        print("hash has not changed")
 
-def eval_state(config):
+def eval_state():
     return "ready"
