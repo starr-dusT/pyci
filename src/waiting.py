@@ -27,3 +27,5 @@ class pyci:
             self.last_hash = current_hash
         else:
             print("hash has not changed")
+
+    def
