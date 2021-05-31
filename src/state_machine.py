@@ -1,6 +1,7 @@
 # imports
 import time
 import waiting as wt
+import ready as rd
 import config as config
 
 # Simple state machine where: Waiting -> Ready -> Running -> Finished -|-> Succeeded
@@ -20,7 +21,7 @@ def ready():
     # TODO
     print("current state: ready")
     # Next state is running
-    return "running"
+    return rd.eval_state()
 
 
 def running():
